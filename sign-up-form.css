@@ -1,3 +1,12 @@
-#container {
-    height:100px;
+body {
+    font-family: 'Courier New', Courier, monospace;
+    /* background: black; */
+}
+
+.container {
+    max-height: 100px;
+}
+
+img {
+    max-height: 100px;
 }
