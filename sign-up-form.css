@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-    max-height: 100px;
+    display:flex;
+    max-height: 100vh;
 }
 
 img {
