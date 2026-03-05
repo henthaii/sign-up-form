@@ -11,18 +11,33 @@ body {
 .image-container {
     display:flex;
     position: relative;
+    justify-content:center;
 }
 
 .logo {
     display:flex;
     position: absolute;
-    align-items: stretch;
+    align-items: center;
+    justify-content:center;
     background: black;
     opacity: 0.4;
 }
 
+.logo > img {
+    size: 2em;
+}
+
 .logo > p {
     color: white;
+    padding:0%;
+    flex:1;
+    font-size: 2rem;
+}
+
+.caption {
+    display:flex;
+    position:absolute;
+    /* align-items: center; */
 }
 
 img {
