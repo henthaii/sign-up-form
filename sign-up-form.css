@@ -13,6 +13,7 @@ body {
     display:flex;
     position: relative;
     justify-content:center;
+    
 }
 
 .logo {
@@ -44,8 +45,8 @@ body {
 }
 
 .caption {
-    display:flex;
-    position:absolute;
+    display: flex;
+    position: absolute;
     font-size: .8em;
     bottom: 1%;
     color: white;
@@ -57,11 +58,12 @@ img {
 }
 
 .text-container {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 .top, .bottom {
+    display: flex;
     background-color: lightgray;
     margin: 0px;
     border: 0px;
@@ -69,8 +71,25 @@ img {
 }
 
 .middle {
+    display: flex;
+    flex-direction:column;
     background-color: white;
     margin: 0px;
     border: 0px;
     height: 34%;
+    
+}
+
+.text {
+    padding-left: 5%;
+    margin-top:20%;
+}
+
+.text > p {
+    font-weight: bold;
+}
+
+.middle > p, .row_one, .row_two, .row_three {
+    display: flex;
+    padding-left: 5%;
 }
