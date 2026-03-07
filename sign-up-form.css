@@ -102,3 +102,13 @@ img {
 .row_one > div, .row_two > div, .row_three > div {
     padding: 3%;
 }
+
+.bottom-container {
+    padding: 5%;
+}
+
+input {border:1px,solid,#e5e7eb}
+
+input:focus {border:1px, solid, blue}
+
+input[type="password"]:invalid {border:1px, solid, red}
