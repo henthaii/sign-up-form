@@ -74,6 +74,7 @@ img {
     display: flex;
     flex-direction:column;
     background-color: white;
+    justify-content: center;
     margin: 0px;
     border: 0px;
     height: 34%;
@@ -81,15 +82,23 @@ img {
 }
 
 .text {
-    padding-left: 5%;
-    margin-top:20%;
+    padding-left: 8%;
+    bottom: 10%;
 }
 
 .text > p {
     font-weight: bold;
 }
 
-.middle > p, .row_one, .row_two, .row_three {
+.middle > p {
+    padding-left: 8%;
+}
+
+.row_one, .row_two, .row_three {
     display: flex;
     padding-left: 5%;
+}
+
+.row_one > div, .row_two > div, .row_three > div {
+    padding: 3%;
 }
