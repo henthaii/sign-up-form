@@ -82,15 +82,18 @@ img {
 }
 
 .text {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     padding-left: 8%;
-    bottom: 10%;
+    margin-top:15%;
 }
 
 .text > p {
     font-weight: bold;
 }
 
-.middle > p {
+.middle > h2 {
     padding-left: 8%;
 }
 
@@ -112,3 +115,22 @@ input {border:1px,solid,#e5e7eb}
 input:focus {border:1px, solid, blue}
 
 input[type="password"]:invalid {border:1px, solid, red}
+
+.bottom-container {
+    padding-left: 8%;
+    padding-top: 8%;
+}
+
+.login {
+    color: #596D48;
+}
+
+button {
+    color:white;
+    background-color: #596D48;
+    padding: 5%;
+    border-radius: 10%;
+    border-color: #596D48;
+    box-shadow: none;
+    
+}

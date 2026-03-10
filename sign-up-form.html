@@ -41,7 +41,7 @@ bottom section will have the create account and the extra text  -->
         </div>
         <div class="middle">
             <!-- <div class="middle-container"> -->
-                <p>Let's do this!</p>
+                <h2>Let's do this!</h2>
                 <form action="placeholder" method="post">
                     <div class = "row_one">
                         <div>
@@ -66,11 +66,11 @@ bottom section will have the create account and the extra text  -->
                     <div class = "row_three">
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                         </div>
                         <div>
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm_password" id="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                            <input type="password" name="confirm_password" id="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                         </div>
                     </div>
                 </form>
@@ -79,7 +79,7 @@ bottom section will have the create account and the extra text  -->
         <div class="bottom">
             <div class="bottom-container">
                 <button>Create Account</button>
-                <p>Already have an account? Log in</p>
+                <p>Already have an account? <span class="login">Log in</span></p>
             </div>
         </div>
     </div>
